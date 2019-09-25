@@ -49,7 +49,12 @@ p {
     justify-content: space-evenly;
 }
 
-
+.topbot {
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 40%;
+}
 
 
 a {
