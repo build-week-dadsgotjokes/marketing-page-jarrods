@@ -43,7 +43,8 @@ a {
 
 }
 
-.boxes { display:flex;
+.boxes { 
+    display:flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
     padding: 2%;
@@ -51,10 +52,18 @@ a {
 
 .box_ppl {
     border: solid .7rem #537D91 ;
-    padding: 1%;
+    padding: 2%;
     border-radius: 5%;
     margin: 2%;
+    justify-content: center;
+    text-align: center;
+    
 
+
+}
+
+img {
+    padding: .5%;
 }
 
 
@@ -73,17 +82,19 @@ a {
 
 
 
-
-
-
-
-
-
+@media screen and (max-width: 500px){
+    .container {
+        width: 500px;
+    }
     
+    
+    
+    
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 1/2;
+    }
 
 
-
-
-
-
-@media screen and (max-width: 500px){}
+}
