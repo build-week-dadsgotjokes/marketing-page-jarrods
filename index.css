@@ -5,8 +5,8 @@
 
 p {
     font-family: 'Neucha', cursive ;
+    font-size: 1.3rem;
 }
-
 
 
 .top_head  {
@@ -47,13 +47,16 @@ p {
 .top    {
     display: flex;
     justify-content: space-evenly;
+    border-top: dashed .4rem  #537D91;
+    margin-top: 2%;
 }
 
 .topbot {
     display:flex;
     flex-direction: column;
-    align-content: space-around;
+    align-content: space-evenly;
     width: 40%;
+    text-align: center;
 }
 
 
@@ -128,14 +131,25 @@ img {
         justify-content: center;
         text-align: center;
     }
-    .top {
+    .top { display:flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
 
     .top_head {
         text-align: center;
     }
+
+    h2 {
+        text-align: center;
+    }
+
+
+
+
+
+   
 
 }
 
