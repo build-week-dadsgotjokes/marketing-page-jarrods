@@ -1,1 +1,87 @@
+* {
+    font-family: 'Rock Salt', cursive;
+    color: #584b42;
+}
+
+p {
+    font-family: 'Neucha', cursive ;
+}
+
+
+
+.top_head  {
+    background-color: #537D91;
+    padding: 0 2%;
+    
+}
+
+
+
+.container {
+    width: 880px;
+    margin: 0 auto;
+    background-color: #F77754;
+}
+
+.head {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+
+.top    {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: #A4D1C8;
+}
+
+.team-top { padding: 2%;
+
+}
+
+.boxes { display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 2%;
+}
+
+.box_ppl {
+    border: solid 1px black;
+    padding: 1%;
+
+}
+
+.react {
+    padding: 0 2%;
+}
+
+.bank {
+    padding: 0 2%;
+}
+
+.joke {
+    padding: 0 2%;
+}
+
+.create {
+    padding: 0 2%;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
 @media screen and (max-width: 500px){}
