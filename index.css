@@ -107,6 +107,22 @@ img {
     padding: 0 2%;
 }
 
+.text {
+    text-decoration: underline black;
+
+
+}
+
+.navlow {
+    background-color: #537D91;
+    
+
+}
+
+.navlow a {
+    color: #F77754;
+}
+
 
 
 @media screen and (max-width: 500px){
