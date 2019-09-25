@@ -50,14 +50,14 @@ a {
 }
 
 .box_ppl {
-    border: solid 1px black;
+    border: solid .7rem #537D91 ;
     padding: 1%;
+    border-radius: 5%;
+    margin: 2%;
 
 }
 
-.react {
-    padding: 0 2%;
-}
+
 
 .bank {
     padding: 0 2%;
@@ -70,6 +70,8 @@ a {
 .create {
     padding: 0 2%;
 }
+
+
 
 
 
