@@ -15,6 +15,13 @@ p {
     
 }
 
+.joke {
+    display: flex;
+
+}
+
+
+
 
 
 .container {
@@ -97,4 +104,9 @@ img {
     }
 
 
+}
+
+.joke button {
+    border: solid 2% purple;
+    border-radius: 5%;
 }
