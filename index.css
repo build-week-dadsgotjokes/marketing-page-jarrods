@@ -20,6 +20,14 @@ p {
 
 }
 
+.joke button {
+    border-radius: 8px; 
+    border: 2px solid black;
+    padding: 10px 28px;
+    width: 10rem;
+    font-weight: bold;
+}
+
 
 
 
@@ -43,7 +51,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #A4D1C8;
+    color: #537D91;
 }
 
 .team-top { padding: 2%;
@@ -100,13 +108,22 @@ img {
     .boxes{
         display: flex;
         flex-direction: column;
-        flex-shrink: 1/2;
+        padding: .5%;
     }
 
+    .joke img { display: none;
+
+    }
+
+    .joke{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .top {
+        flex-direction: column;
+        text-align: center;
+    }
 
 }
 
-.joke button {
-    border: solid 2% purple;
-    border-radius: 5%;
-}
