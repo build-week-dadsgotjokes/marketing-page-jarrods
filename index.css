@@ -170,3 +170,54 @@ img {
 
 }
 
+@media screen and (max-width: 375px){
+    .container {
+        width: 375px;
+
+    }
+
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .joke img { display: none;
+
+    }
+
+    .joke{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .top { display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .box_ppl {
+        border: solid .7rem #537D91 ;
+        padding: 2%;
+        border-radius: 5%;
+        margin: 2%;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+    
+    
+    }
+
+    img {
+        width: 80%;
+    }
+
+
+
+}
+
